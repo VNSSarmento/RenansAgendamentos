@@ -17,7 +17,6 @@
             margin: 0 auto;
         }
 
-        /* ── TOPO ── */
         .back-link {
             display: inline-flex;
             align-items: center;
