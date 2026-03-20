@@ -4,6 +4,8 @@
         <h2 class="font-semibold text-xl leading-tight" style="color:#e8e8f0;">Novo Agendamento</h2>
     </x-slot>
 
+<<<<<<< HEAD
+=======
     <style>
         .sched-wrap {
             font-family: 'Space Grotesk', sans-serif;
@@ -184,6 +186,7 @@
         }
     </style>
 
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
     <div class="sched-wrap">
         <div class="sched-inner">
 

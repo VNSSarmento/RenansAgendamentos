@@ -6,6 +6,8 @@
         </h2>
     </x-slot>
 
+<<<<<<< HEAD
+=======
     <style>
         .profile-wrap {
             font-family: 'Space Grotesk', sans-serif;
@@ -329,6 +331,7 @@
         }
     </style>
 
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
     <div class="profile-wrap">
         <div class="profile-inner">
 

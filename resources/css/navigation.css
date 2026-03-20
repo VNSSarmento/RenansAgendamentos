@@ -1,0 +1,273 @@
+.dnav-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dnav-left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.dnav-right {
+    display: flex;
+    align-items: center;
+}
+
+.dnav-brand {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    text-decoration: none;
+}
+
+.dnav-brand-icon {
+    width: 30px;
+    height: 30px;
+    background: #7F77DD;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.dnav-brand-icon svg {
+    width: 16px;
+    height: 16px;
+}
+
+.dnav-brand-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: #e8e8f0;
+}
+
+.dnav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.dnav-link {
+    font-size: 13px;
+    font-weight: 500;
+    color: #6b6b7a;
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.12s, border-color 0.12s;
+}
+
+.dnav-link:hover {
+    color: #c0c0d0;
+}
+
+.dnav-link-active {
+    color: #AFA9EC;
+    border-bottom-color: #7F77DD;
+}
+
+/* Pill do usuário */
+.dnav-user-pill {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: #1e1e26;
+    border: 1px solid #2a2a38;
+    border-radius: 99px;
+    padding: 4px 12px 4px 5px;
+    cursor: pointer;
+    transition: background 0.12s;
+    position: relative;
+}
+
+.dnav-user-pill:hover {
+    background: #26262e;
+}
+
+.dnav-avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #534AB7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #CECBF6;
+    text-transform: uppercase;
+    flex-shrink: 0;
+}
+
+.dnav-uname {
+    font-size: 12.5px;
+    font-weight: 500;
+    color: #c0c0cc;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Dropdown */
+.dnav-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    background: #1e1e26;
+    border: 1px solid #2a2a38;
+    border-radius: 12px;
+    padding: 6px;
+    min-width: 210px;
+    z-index: 200;
+}
+
+.dnav-drop-info {
+    padding: 10px 12px 8px;
+    border-bottom: 1px solid #2a2a38;
+    margin-bottom: 4px;
+}
+
+.dnav-drop-info .d-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #e8e8f0;
+}
+
+.dnav-drop-info .d-email {
+    font-size: 12px;
+    color: #6b6b7a;
+    margin-top: 2px;
+}
+
+.dnav-drop-link {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 9px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #c0c0cc;
+    text-decoration: none;
+    transition: background 0.1s;
+    cursor: pointer;
+    width: 100%;
+    background: none;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: left;
+}
+
+.dnav-drop-link:hover {
+    background: #26262e;
+}
+
+.dnav-drop-link svg {
+    width: 15px;
+    height: 15px;
+    color: #6b6b7a;
+    flex-shrink: 0;
+}
+
+.dnav-drop-sep {
+    height: 1px;
+    background: #2a2a38;
+    margin: 4px 0;
+}
+
+.dnav-drop-link.danger {
+    color: #F09595;
+}
+
+.dnav-drop-link.danger svg {
+    color: #E24B4A;
+}
+
+.dnav-drop-link.danger:hover {
+    background: #1e1216;
+}
+
+/* Hamburger */
+.dnav-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    color: #6b6b7a;
+}
+
+/* Menu mobile */
+.dnav-mobile {
+    border-top: 1px solid #2a2a32;
+    background: #16161a;
+    padding: 0.75rem 1.5rem 1.25rem;
+}
+
+.dnav-mob-link {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #8888a0;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #1e1e26;
+}
+
+.dnav-mob-link.active {
+    color: #AFA9EC;
+}
+
+.dnav-mob-user {
+    padding: 12px 0 8px;
+}
+
+.dnav-mob-user .d-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e8e8f0;
+}
+
+.dnav-mob-user .d-email {
+    font-size: 12px;
+    color: #6b6b7a;
+    margin-top: 2px;
+}
+
+.dnav-mob-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 500;
+    color: #8888a0;
+    background: none;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dnav-mob-btn.danger {
+    color: #F09595;
+}
+
+@media (max-width: 600px) {
+
+    .dnav-links,
+    .dnav-right {
+        display: none;
+    }
+
+    .dnav-hamburger {
+        display: flex;
+    }
+}

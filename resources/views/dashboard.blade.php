@@ -6,6 +6,8 @@
         </h2>
     </x-slot>
 
+<<<<<<< HEAD
+=======
     <style>
         .dash {
             font-family: 'Space Grotesk', sans-serif;
@@ -222,6 +224,7 @@
         }
     </style>
 
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
     <div class="dash">
         <div class="dash-inner">
 
@@ -249,7 +252,11 @@
                 </div>
 
                 <div>
+<<<<<<< HEAD
+                    <a href="{{ route('appointments.create') }}" class="btn-novoo">
+=======
                     <a href="{{ route('appointments.create') }}" class="btn-novo">
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
                         <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
                             <path d="M12 5v14M5 12h14"/>
                         </svg>

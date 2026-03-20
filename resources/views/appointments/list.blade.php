@@ -6,6 +6,8 @@
         </h2>
     </x-slot>
 
+<<<<<<< HEAD
+=======
     <style>
         .list-wrap {
             font-family: 'Space Grotesk', sans-serif;
@@ -275,6 +277,7 @@
             .appt-table td:nth-child(2) { display: none; }
         }
     </style>
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
 
     <div class="list-wrap">
         <div class="list-inner">

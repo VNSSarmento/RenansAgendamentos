@@ -1,5 +1,7 @@
 <nav x-data="{ open: false, dropOpen: false }" style="font-family:'Space Grotesk',sans-serif;background:#16161a;border-bottom:1px solid #2a2a32;position:sticky;top:0;z-index:50;">
 
+<<<<<<< HEAD
+=======
     <style>
         .dnav-inner {
             max-width: 960px;
@@ -208,6 +210,7 @@
         }
     </style>
 
+>>>>>>> ff84c950d96f6b411e67b78e185ad6efd9e31c60
     {{-- ── TOPBAR PRINCIPAL ── --}}
     <div class="dnav-inner">
         <div class="dnav-left">
